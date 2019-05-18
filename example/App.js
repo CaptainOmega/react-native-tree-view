@@ -12,7 +12,7 @@ import {
   Text,
   View
 } from 'react-native';
-import TreeView from 'react-native-tree-view';
+import TreeView from '@captain-omega/react-native-tree-view';
 import faker from 'faker';
 
 const COLUMN_1 = 200;

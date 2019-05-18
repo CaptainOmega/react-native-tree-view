@@ -21,7 +21,7 @@ Has expandable row, which useful for displaying large amounts of information in 
 Install main package:
 
 ```bash
-$ npm i --save react-native-tree-view
+$ npm i --save @captain-omega/react-native-tree-view
 ```
 
 Install related icons package [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons):
@@ -46,12 +46,12 @@ apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
 
 ### Basic Usage
 
-- Install `react-native-tree-view` package to project 
+- Install `@captain-omega/react-native-tree-view` package to project 
 
 - Import module to file
 
 ```jsx
-import TreeView from 'react-native-tree-view';
+import TreeView from '@captain-omega/react-native-tree-view';
 ```
 
 - Then, use component like this:
@@ -116,8 +116,9 @@ $ react-native run-ios
 If your `npm` not support symlinks, then call this code from repository root directory:
 
 ```bash
-$ cp -alf $PWD example/node_modules/
-$ rm -R example/node_modules/react-native-tree-view/example
+$ mkdir example/node_modules/@captain-omega
+$ cp -alf $PWD example/node_modules/@captain-omega
+$ rm -R example/node_modules/@captain-omega/react-native-tree-view/example
 $ cd example
 $ react-native run-android
 $ react-native run-ios

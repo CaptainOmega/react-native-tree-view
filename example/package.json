@@ -11,7 +11,7 @@
     "react": "16.8.3",
     "react-native": "0.59.5",
     "react-native-vector-icons": "^6.4.2",
-    "react-native-tree-view": "file:.."
+    "@captain-omega/react-native-tree-view": "file:.."
   },
   "devDependencies": {
     "@babel/core": "^7.4.4",
