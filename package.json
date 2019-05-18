@@ -1,6 +1,6 @@
 {
   "name": "@captain-omega/react-native-tree-view",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Native component for hierarchical data representation.",
   "main": "index.js",
   "scripts": {
