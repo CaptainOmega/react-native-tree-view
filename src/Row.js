@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {
   Animated,
   StyleSheet,
-  TouchableNativeFeedback,
+  TouchableOpacity,
   View,
 } from 'react-native';
 import PropTypes from 'prop-types';
@@ -159,7 +159,8 @@ export class Row extends Component {
           flexDirection: 'column',
         }}
       >
-        <TouchableNativeFeedback
+        <TouchableOpacity
+          activeOpacity={1}
           onPress={(event) => {
             onPress();
             if (isExpandable === null || isExpandable(data)) {
@@ -192,7 +193,7 @@ export class Row extends Component {
               })
             }
           </View>
-        </TouchableNativeFeedback>
+        </TouchableOpacity>
 
         <Animated.View
           style={{
